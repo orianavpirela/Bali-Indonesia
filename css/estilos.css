@@ -1,0 +1,223 @@
+*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+ }
+body{
+ margin: 0px;
+background:#e1f5fe;
+}
+#contenedor{
+ display:table;
+ width:80%;
+ max-width:1000px;
+ margin: 0 auto;
+ background:#e1f5fe;
+
+}
+.encabezado{
+ float:center;
+ top:0;
+ left:0;
+ width:80%;
+ heigth:45px;
+ }
+#encabezado h1{
+ line-height: 150px;
+ font-size: 40pt;
+ text-align:center;
+ float:left;
+}
+#encabezado img{
+
+ margin: 30px auto;
+ width:100%; 
+ heigth:45px;
+ display: table;
+ float:left;
+}
+#footer{
+ width: 100%;
+ height: 75px;
+ background: #3b5998;
+ text-align: center;
+ color: white;
+ padding-top: 2%;
+}
+#cuerpo{
+ background:#e1f5fe;
+ width:96%;
+ padding-left:2%;
+ padding-right:2%;
+ padding-top:2%;
+ padding-bottom:2%;
+}
+.menu-main{
+ display: flex;
+ justify-content: space-between;
+ background: #3b5998;
+ border-bottom: 1px solid #29487d;
+ height:30px;
+ padding: 0px 30px;
+ line-height: 30px;
+}
+.menu-main a{
+ font-family: arial;
+ color: #ffffff;
+ text-decoration: none;
+ font-size: 12px;
+ font-weight: bold;
+ justify-content: center;
+ align-items: center;
+ display: block;
+ text-align: center;
+}
+.menu-main a:hover{
+ background: rgba(0,0,0, .1);
+ display: block;
+}
+.menu-main a.active{
+ background-color: #29487d;
+
+}
+.turismo2{
+ float:right;
+ margin-bottom:5px;
+ padding:80px 20px;
+ width: 400px;
+ height: 400px;
+}
+.imagen-izquierda{
+ float:left;
+ margin-right: 2%;
+ margin-bottom: 2%;
+ margin-top: 5%;
+ padding:0px 20px;
+ width: 400px;
+ height: 400px;
+}
+.historia{
+ float:right;
+ margin-right: 0%;
+ margin-left: 10%;
+ padding: 75px 0px;
+ margin-bottom: 2%;
+ width: 400px;
+ height: 600px;
+}
+.geografia{
+ float:left;
+ margin-right: 5%;
+ margin-bottom: 2%;
+ width: 400px;
+ height: 300px;
+}
+.cultura{
+ float:left;
+ margin-right: 10%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+ width: 450px;
+ height: 350px;
+}
+.economia{
+ float:left;
+ margin-right: 10%;
+ margin-top: 10%;
+ margin-bottom: 10%;
+ width: 450px;
+ height: 350px;
+}
+.turismo{
+ float:left;
+ margin-right: 2%;
+ margin-top: 4%;
+ margin-bottom: 10%;
+ width: 450px;
+ height: 350px;
+}
+.cuadro{
+ float: center;
+ margin: 20px 100px;
+ margin-left: 15%;
+ }
+.parrafo{
+ text-align: justify;
+ padding: 0px 20px;
+ margin: 10px 50px;
+ margin-right: 2px;
+ margin-left: 10px;
+}
+.parrafo2{
+ text-align: justify;
+ margin: 10px 0px;
+ width: 700px;
+}
+.parrafo3{
+ text-align: justify;
+ margin: 10px 20px;
+}
+.parrafo4{
+ text-align: justify;
+ margin: 0px 20px;
+ margin-top:20px;
+}
+.parrafo6{
+ text-align: justify;
+ margin: 0px 20px;
+ margin-top:20px;
+}
+.parrafo5{
+ text-align: justify;
+ margin: 0px 20px;
+}
+form{
+ width:25%;
+ border: 1px color #0d47a1;
+ margin:0px 80px;
+ margin-top:0px;
+ margin-bottom:20px;
+ padding:0px 20px;
+}
+label{
+ font-size:12px;
+ display:block;
+ width:100%;
+}
+textarea{
+ resize:vertical;
+ max-height:300px;
+ min-height:100px;
+}
+input, textarea{
+ margin-bottom:20px;
+ width:100%;
+ padding:10px;
+ box-sizing:border-box;
+ border:1px solid #0d47a1;
+}
+input:focus, textarea:focus{
+ border:1px solid #0d47a1;
+}
+input[type="submit"]{
+ margin-bottom:0px;
+ background: #0d47a1;
+ color:#fff;
+ border:none;
+}
+input[type="submit"]:hover {
+ background: #1565c0;
+ cursor:pointer;
+}
+@media (max-width: 768px) {
+
+ .menu-main{
+ height: auto;
+ border-bottom: 0px;
+ display: block;
+ }
+
+ .menu-main a{
+ height: 30px;
+ border-bottom: 1px solid #29487d;
+ }
+}
